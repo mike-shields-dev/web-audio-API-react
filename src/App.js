@@ -10,6 +10,8 @@ gain1.gain.value = 0.01
 function App() {
   return (
     <div className='App'>
+      <button onClick={() => osc1.start()}>Start</button>
+      <button onClick={() => osc1.stop()}>Stop</button>
     </div>
   );
 }
